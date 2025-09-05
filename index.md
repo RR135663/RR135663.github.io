@@ -1,6 +1,4 @@
----
-layout: default
-title: Home
+
 --- # Welcome to My Portfolio Hello! My name is RR135663
 ## Projects
 - Project 1: Coming Soon!
