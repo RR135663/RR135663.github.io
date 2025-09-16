@@ -62,11 +62,11 @@ Uses the Dart programming language.
 | Return | The result a function gives back. | `return total;` |  |  |
 | Scope | Where a variable or function can be used. | (No set syntax — concept-based) | giftcards |  |
 |Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | water bottle or computer |  |
-|Object| A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|Object| A specific version of a class. | `Dog myDog = Dog();` | blueprint or template |  |
 |Property | A variable that belongs to a class/object. | `String name;` |  |  |
-| Method| A function that belongs to a class. | `void bark() {}` |  |  |
-|Constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|Abstaction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+| Method| A function that belongs to a class. | `void bark() {}` | Teacher: teach, mentor, instruct |  |
+|Constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` | creating a google document and there is a default title |  |
+|Abstaction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | computers hiding their inner workings |  |
 |Override | Changing how a built-in or inherited function behaves. | `@override` |  |  |
 |Void| A function that does not return a value. | `void printMessage() {}` |  |  |
 
