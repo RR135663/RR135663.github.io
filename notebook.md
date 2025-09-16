@@ -3,6 +3,8 @@
 - [Flutter Notes](#flutter-notes)
 - [What is Flutter?](#what-is-flutter)
 - [Key Terms and Definitions](#Key-Terms-and-Definitions)
+- [Layout and Design Widgets](#Layout-and-design-widgets)
+- [Definitions with Structures](#flutter-definitions)
 - [Code Definitions](#code-definitions) 
 - [Notebook Style Guide](#Markdown-Style-Guide-for-Coding-Notebooks)
 
@@ -41,6 +43,38 @@ Uses the Dart programming language.
 - How do you center a widget?
 - How do you align something to the left or right?
 - What widget adds space around content?
+
+
+
+## Flutter Definitions with strectures
+
+| Term | Definition and Description | Base Structure | Real Life Example | App Example |
+|------|----------------------------|----------------|-------------------|-------------|
+| main()     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
+| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | Starting a game |  |
+| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | templates for this table |  |
+| Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | long division |  |
+| Row     | A widget that shows things side-by-side. | `Row(...)` | information matching the definition  |  |
+| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | bulleten board background |  |
+| Text     | A widget to display text on the screen. | `Text('Hello')` | Greeting messages |  |
+| Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` | Google images |  |
+| ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` | tapping buttons on a device |  |
+| onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` | volume button on a phone |  |
+| StatelessWidget     | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | a welcome page or a profile page |  |
+| Navigator     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+| @override     | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+| build()     | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+| BuildContext     | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+| super.key     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+|      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+|      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+|      | Required in every widget class to describe what to show. | `build` |  |  |
+|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+
+
+
 
 
 
