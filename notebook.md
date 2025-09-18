@@ -61,17 +61,17 @@ Uses the Dart programming language.
 | ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` | tapping buttons on a device |  |
 | onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` | volume button on a phone |  |
 | StatelessWidget     | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | a welcome page or a profile page |  |
-| Navigator     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-| @override     | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-| build()     | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
-| BuildContext     | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
-| super.key     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-|      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-|      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-|      | Required in every widget class to describe what to show. | `build` |  |  |
-|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+| StatefulWidget     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` | scrolling or playing a game |  |
+| Navigator     | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` | pips(navigating through pages) |  |
+| Padding     | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` | the frame of a picture |  |
+| Center     | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+| Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` | writing in a google document |  |
+| @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+| Widget Build     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+| build     | Required in every widget class to describe what to show. | `build` |  |  |
+| BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` | When you go through websites and it lets you see what you have done |  |
+| super.key     | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+| const     | A keyword that means the value won't change and is set once. | `const` | the title of a homescreen or page |  |
 
 
 
