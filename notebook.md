@@ -46,16 +46,16 @@ Uses the Dart programming language.
 
 
 
-## Flutter Definitions with strectures
+## Flutter Definitions with structures
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
 | main()     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
 | MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | Starting a game |  |
-| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | templates for this table |  |
+| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | templates for this table |  'return Scaffold(  body:Column(mainAxisAlignment:MainAxisAlignment.start,children: [' |
 | Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | long division |  |
 | Row     | A widget that shows things side-by-side. | `Row(...)` | information matching the definition  |  |
-| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | bulleten board background |  |
+| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | bulleten board background |  Container(width: 200,height: 200,decoration: BoxDecoration(border: Border.all(color: Colors.blue, width: 5),),child: Image.network('https://placedog.net/640/480?random',fit: BoxFit.cover,),), |
 | Text     | A widget to display text on the screen. | `Text('Hello')` | Greeting messages |  |
 | Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` | Google images |  |
 | ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` | tapping buttons on a device |  |
@@ -67,7 +67,7 @@ Uses the Dart programming language.
 | Center     | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 | Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` | writing in a google document |  |
 | @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-| Widget Build     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+| Widget Build     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  | Widget build(BuildContext context) { return MaterialApp( |
 | build     | Required in every widget class to describe what to show. | `build` |  |  |
 | BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` | When you go through websites and it lets you see what you have done |  |
 | super.key     | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
@@ -82,9 +82,9 @@ Uses the Dart programming language.
 ## Code Definition
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-| Variable| A named container used to store a value that may change. | `var x = 5;` | student ID  |  |
-| constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
-| Data Type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+| Variable | A named container used to store a value that may change. | `var x = 5;` | student ID  | mn.dart, String title: 'TSA Portfolio' , |
+| constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart, const MyPortfolioApp((super.key)); |
+| Data Type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart, bool, debugShowCheckedModeBanner: false, |
 | string | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
 | Interger | Whole number values. | `int age = 16;` |  |  |
 | Double | Number values with decimals. | `double age = 16.2;` |  |  |
