@@ -53,7 +53,7 @@ Uses the Dart programming language.
 | main()     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
 | MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | Starting a game |  |
 | Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | templates for this table |  'return Scaffold(  body:Column(mainAxisAlignment:MainAxisAlignment.start,children: [' |
-| Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | long division |  |
+| Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | long division | Column(children: [Text(title,style: const TextStyle(color: Colors.blue, fontWeight: FontWeight.bold),textAlign: TextAlign.center, |
 | Row     | A widget that shows things side-by-side. | `Row(...)` | information matching the definition  |  |
 | Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | bulleten board background |  Container(width: 200,height: 200,decoration: BoxDecoration(border: Border.all(color: Colors.blue, width: 5),),child: Image.network('https://placedog.net/640/480?random',fit: BoxFit.cover,),), |
 | Text     | A widget to display text on the screen. | `Text('Hello')` | Greeting messages |  |
