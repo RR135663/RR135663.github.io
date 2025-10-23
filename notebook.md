@@ -103,6 +103,14 @@ Uses the Dart programming language.
 |Abstaction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | computers hiding their inner workings |  |
 |Override | Changing how a built-in or inherited function behaves. | `@override` |  |  |
 |Void| A function that does not return a value. | `void printMessage() {}` |  |  |
+| Scanner| Creates a scanner object to take input from user  | Scanner in = new Scanner(System.in); |  |  |
+| Import Scanner|  | |  |  |
+| print line statement|| |  |  |
+| print statement | | |  |  |
+| input nextLine | | |  |  |
+| input nextInt | | |  |  |
+| input nextDouble | | |  |  |
+| input nextBoolean | | |  |  |
 
 
 
