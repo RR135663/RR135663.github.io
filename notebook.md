@@ -111,8 +111,9 @@ Uses the Dart programming language.
 | input nextInt | | |  |  |
 | input nextDouble | | |  |  |
 | input nextBoolean | | |  |  |
-
-
+| dot notation | Methods are called on objects using a dot after the object name| object.method(value);|  |  |
+| Overloaded method/function or contructor | Uses the same name, but has different parameters| Pizza(), Pizza(String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping |  |  |
+| Concatenate | To combine strings with other strings and/or variables | String greeting = "Hello" + "My name is " + name ". "; |  |  |
 
 
 
