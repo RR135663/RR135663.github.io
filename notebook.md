@@ -5,7 +5,8 @@
 - [Key Terms and Definitions](#Key-Terms-and-Definitions)
 - [Layout and Design Widgets](#Layout-and-design-widgets)
 - [Definitions with Structures](#flutter-definitions)
-- [Code Definitions](#code-definitions) 
+- [Code Definitions](#code-definitions)
+- [String Notes](#string-notes)
 - [Notebook Style Guide](#Markdown-Style-Guide-for-Coding-Notebooks)
 
 ## Flutter Notes
@@ -116,6 +117,8 @@ Uses the Dart programming language.
 | Concatenate | To combine strings with other strings and/or variables | String greeting = "Hello" + "My name is " + name ". "; |  |  |
 
 
+### String Notes
+  Strings have indices (plural for index,) which start at 0. "Hello" has indices 0(H), 1(e), 2(l), 3(l), 4(o).
 
 
 
