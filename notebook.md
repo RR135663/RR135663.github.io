@@ -83,6 +83,8 @@ Uses the Dart programming language.
 ## Code Definition
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
+| Algorithms | Define step by step process to follow when completing a task or solving a problem | no syntax | make a grilled cheese  | verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | |  |  |
 | Variable | A named container used to store a value that may change. | `var x = 5;` | student ID  | mn.dart, String title: 'TSA Portfolio' , |
 | constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart, const MyPortfolioApp((super.key)); |
 | Data Type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart, bool, debugShowCheckedModeBanner: false, |
