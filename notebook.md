@@ -124,6 +124,8 @@ Uses the Dart programming language.
 ### String Notes
   Strings have indices (plural for index,) which start at 0. "Hello" has indices 0(H), 1(e), 2(l), 3(l), 4(o).
 
+### String Methods Table 
+<img width="1214" height="405" alt="image" src="https://github.com/user-attachments/assets/195f7109-f773-428a-bd2e-2da63d8f09ab" />
 
 
 ## Markdown Style Guide for Coding Notebooks
