@@ -117,6 +117,8 @@ Uses the Dart programming language.
 | dot notation | Methods are called on objects using a dot after the object name| object.method(value);|  |  |
 | Overloaded method/function or contructor | Uses the same name, but has different parameters| Pizza(), Pizza(String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping |  |  |
 | Concatenate | To combine strings with other strings and/or variables | String greeting = "Hello" + "My name is " + name ". "; |  |  |
+| index | location value of each character in a String or list, starting at 0 | "Hello" index of 'e' is 1|  |  |
+| Substring | Part of a larger String | "llo" is a substring of "Hello" |  |  |
 
 
 ### String Notes
